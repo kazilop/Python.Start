@@ -15,7 +15,7 @@ def num_mkdir(name, numb):
             dirname.append(temp_path)
             i += 1
         except FileExistsError:
-            print("Невозможно создать")
+            print("Невозможно создать...")
 
     return dirname
 

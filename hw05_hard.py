@@ -15,7 +15,7 @@ def zadanie3():
     pass
 
 
-select = input("Введи номер задачи 1-3 \n")
+select = input("Введи номер задачи 1-3  \n")
 
 if select == "1":
     zadanie1()
