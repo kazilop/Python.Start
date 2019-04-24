@@ -52,7 +52,7 @@ def zadanie2():
     dirs = os.listdir()
 
     for z in dirs:
-        if z[0] == '.':
+      #  if z[0]:
             listdir.append(z)
 
     # не нашел в инете как в регуляторных выражения обозначить точку
